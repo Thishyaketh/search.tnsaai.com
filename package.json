@@ -5,6 +5,6 @@
   },
   "scripts": {
     "clean": "rm -Rf node_modules package-lock.json",
-    "vercel-build": "pip install -r requirements.txt"
+    "vercel-build": "pip install -r requirements.txt && pip install -r requirements-server.txt"
   }
 }
