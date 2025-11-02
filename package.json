@@ -4,6 +4,7 @@
   "dependencies": {
   },
   "scripts": {
-    "clean": "rm -Rf node_modules package-lock.json"
+    "clean": "rm -Rf node_modules package-lock.json",
+    "vercel-build": "pip install -r requirements.txt"
   }
 }
